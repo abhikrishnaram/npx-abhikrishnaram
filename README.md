@@ -7,7 +7,7 @@ npx abhikrishnaram
 ```
 
 ### Updates
-- Migrated from JavaScript to TypeScript
+- Updated dependencies
 - Removed deprecated dependencies
 - Added some error handling
 

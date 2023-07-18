@@ -2,36 +2,38 @@
   "name": "abhikrishnaram",
   "version": "1.0.0",
   "description": "A personal card for Abhiram Krishna (@abhikrishnaram)",
-  "main": "index.ts",
+  "type": "module",
+  "main": "index.js",
   "bin": {
-    "abhikrishnaram": "./index.ts"
+    "abhikrishnaram": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhikrishnaram/npx-abhikrishnaram.git"
   },
   "scripts": {
-    "test": "node index.ts",
+    "test": "node index.js",
     "pub": "npm version major & npm publish"
   },
   "dependencies": {
-    "boxen": "^4.2.0",
-    "chalk": "^4.1.0",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
     "clear": "^0.1.0",
-    "cli-spinners": "^2.5.0",
+    "cli-spinners": "^2.9.0",
     "download": "^8.0.0",
-    "inquirer": "^7.3.2",
-    "open": "^7.0.4",
-    "ora": "^5.1.0",
-    "typescript": "^5.1.6"
+    "inquirer": "^9.2.8",
+    "open": "^9.1.0",
+    "ora": "^6.3.1"
   },
   "keywords": [
-    "card",
-    "npm",
-    "npm card",
+    "abhikrishnaram",
+    "abhiram krishna",
+    "npm card abhiram krishna",
+    "npm card abhikrishnaram",
     "npx",
     "npx card",
-    "business card"
+    "Abhiram Krishna",
+    "abhikrishnaram88@gmail.com"
   ],
   "author": "Abhiram Krishna <abhikrishnaram88@gmail.com> (https://github.com/abhikrishnaram/)",
   "license": "ISC"
