@@ -44,7 +44,7 @@ const questions = [
                         spinner: cliSpinners.material,
                     }).start();
 
-                    const fileUrl = 'https://raw.githubusercontent.com/esl/erlang-handbook/master/output/ErlangHandbook.pdf';
+                    const fileUrl = 'https://github.com/abhikrishnaram/abhikrishnaram/resume.pdf';
                     const fileName = path.basename('abhikrishnaram-resume.pdf');
                     const filePath = path.join(process.cwd(), fileName);
 

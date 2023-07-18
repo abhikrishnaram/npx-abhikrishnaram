@@ -1,6 +1,6 @@
 {
   "name": "abhikrishnaram",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A personal card for Abhiram Krishna (@abhikrishnaram)",
   "type": "module",
   "main": "index.js",
@@ -12,8 +12,8 @@
     "url": "git+https://github.com/abhikrishnaram/npx-abhikrishnaram.git"
   },
   "scripts": {
-    "test": "node index.js",
-    "pub": "npm version major & npm publish"
+    "dev": "node index.js",
+    "publish": "npm version major & npm publish"
   },
   "dependencies": {
     "boxen": "^7.1.1",
