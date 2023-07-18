@@ -1,17 +1,17 @@
 {
-  "name": "anmol",
-  "version": "4.0.0",
-  "description": "A personal card for Anmol Pratap Singh (@anmol098)",
-  "main": "card.js",
+  "name": "abhikrishnaram",
+  "version": "1.0.0",
+  "description": "A personal card for Abhiram Krishna (@abhikrishnaram)",
+  "main": "index.ts",
   "bin": {
-    "anmol": "./card.js"
+    "abhikrishnaram": "./index.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmol098/npx_card.git"
+    "url": "git+https://github.com/abhikrishnaram/npx-abhikrishnaram.git"
   },
   "scripts": {
-    "test": "node card.js",
+    "test": "node index.ts",
     "pub": "npm version major & npm publish"
   },
   "dependencies": {
@@ -19,10 +19,11 @@
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "cli-spinners": "^2.5.0",
+    "download": "^8.0.0",
     "inquirer": "^7.3.2",
     "open": "^7.0.4",
     "ora": "^5.1.0",
-    "request": "^2.88.2"
+    "typescript": "^5.1.6"
   },
   "keywords": [
     "card",
@@ -32,6 +33,6 @@
     "npx card",
     "business card"
   ],
-  "author": "Anmol Singh <hi@anmolsingh.me> (https://anmolsingh.me/)",
+  "author": "Abhiram Krishna <abhikrishnaram88@gmail.com> (https://github.com/abhikrishnaram/)",
   "license": "ISC"
 }
